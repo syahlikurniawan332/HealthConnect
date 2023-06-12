@@ -68,7 +68,7 @@
                         <td>4</td>
                         <td>jeremi dorli</td>
                         <td>2020-09-13</td>
-                        <td>20.00</td>
+                        <td>21.00</td>
                         <td>$50</td>
                     </tr>
                     <tr>
