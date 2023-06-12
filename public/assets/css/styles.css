@@ -1,0 +1,89 @@
+.row.row1 .col-4 img,
+.row.row1 .col-lg-8 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    /* .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #06bb2d;
+        padding-top: 60px;
+        z-index: 999;
+        overflow-y: auto;
+        transition: left 0.3s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: left;
+    }
+
+    .navbar-nav .nav-link.active {
+        background-color: rgba(0, 0, 0, 0.1);
+    } */
+
+    .row.row1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .row.row2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        /* Untuk dukungan scrolling yang lebih baik pada iOS */
+    }
+
+    .footer-wrapper .row {
+        flex-wrap: wrap;
+    }
+
+    .footer-wrapper .col-lg-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
