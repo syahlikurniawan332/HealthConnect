@@ -34,16 +34,21 @@
         <div class="col-md-3 col-12 d-grid gap-2 text-center">
             <div class="card">
                 <div class="card-body">
-                    <img src="{{ asset('assets/img/tanya.jpg') }}" class="card-img-top" alt="...">
-                    <p class="my-2 mb-0 card-text">Tanya Dokter</p>
+                    <a href="tanyadokter" style="text-decoration: none !important; color : black;">
+                        <img src="{{ asset('assets/img/tanya.jpg') }}" class="card-img-top" alt="...">
+                        <p class="my-2 mb-0 card-text">Tanya Dokter</p>
+                    </a>
                 </div>
+
             </div>
         </div>
         <div class="col-md-3 col-12 d-grid gap-2 text-center">
             <div class="card">
                 <div class="card-body">
-                    <img src="{{ asset('assets/img/temu.jpg') }}" class="card-img-top" alt="...">
-                    <p class="my-2 mb-0 card-text">Temu Dokter</p>
+                    <a href="janjitemu" style="text-decoration: none !important; color: black;">
+                        <img src="{{ asset('assets/img/temu.jpg') }}" class="card-img-top" alt="...">
+                        <p class="my-2 mb-0 card-text">Temu Dokter</p>
+                    </a>
                 </div>
             </div>
         </div>

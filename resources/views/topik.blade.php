@@ -25,7 +25,7 @@
     <!-- paling populer -->
     <div class="container mt-3">
         <h1 class="col-12 mb-3">Paling Populer</h1>
-        <div class="row row1">
+        <div class="row row2">
             <div class="col-lg-8">
                 <div class="card mb-3">
                     <a href="{{ url('#') }}">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 overflow-auto" style="max-height: 550px;">
                 <div class="row mb-4">
                     <div class="col-4">
                         <a href="{{ url('#') }}">

@@ -14,21 +14,45 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('index/', function () {
     return view('index');
 });
 
-Route::get('topik/', function () {
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/topik', function () {
     return view('topik');
 });
 
-Route::get('tentangkami/', function () {
+Route::get('/tentangkami', function () {
     return view('tentangkami');
 });
 
-Route::get('riwayat/', function () {
+Route::get('/riwayat', function () {
     return view('riwayat');
 });
+
+Route::get('/tanyadokter', function () {
+    return view('tanyadokter');
+});
+
+Route::get('/profiledokter', function () {
+    return view('profiledokter');
+});
+
+Route::get('/pembayaran', function () {
+    return view('pembayaran');
+});
+
+Route::get('/janjitemu', function () {
+    return view('janjitemu');
+});
+
+Route::get('/janjitemu1', function () {
+    return view('janjitemu1');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');

@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <h5 class="modal-title">Masukkan nomor telepon untuk mulai memakai layanan Health Connect</h5>
                 <!-- Add your login form here -->
-                <form>
+                <form action="">
                     <div class="mb-3 row">
                         <div class="col mt-3 mb-3">
                             <div class="input-group">
