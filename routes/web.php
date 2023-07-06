@@ -53,6 +53,24 @@ Route::get('/janjitemu1', function () {
     return view('janjitemu1');
 });
 
+Route::get('/waktujanji', function () {
+    return view('waktujanji');
+});
+
+Route::get('/layananlab', function () {
+    return view('layananlab');
+});
+
+Route::get('/tokokesehatan', function () {
+    return view('tokokesehatan');
+});
+
+Route::post('/tambah-kat', [App\Http\Controllers\kategori_controller::class,'store1'])->name('kategori.store1');
+Route::get('/tokokesehatan', [App\Http\Controllers\kategori_controller::class, 'kategori'])->name('kategori');
+
+Route::post('/tambah-data-ibu', [App\Http\Controllers\IbuController::class,'store2'])->name('ibu.store2');
+Route::get('/dataibu', [App\Http\Controllers\IbuController::class, 'dataibu'])->name('dataibu');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');

@@ -55,16 +55,20 @@
         <div class="col-md-3 col-12 d-grid gap-2 text-center">
             <div class="card">
                 <div class="card-body">
-                    <img src="{{ asset('assets/img/lab.jpg') }}" class="card-img-top" alt="...">
-                    <p class="my-2 mb-0 card-text">Layanan Lab & Kesehatan</p>
+                    <a href="layananlab" style="text-decoration: none !important; color: black;">
+                        <img src="{{ asset('assets/img/lab.jpg') }}" class="card-img-top" alt="...">
+                        <p class="my-2 mb-0 card-text">Layanan Lab & Kesehatan</p>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-12 d-grid gap-2 text-center">
             <div class="card">
                 <div class="card-body">
-                    <img src="{{ asset('assets/img/toko.jpg') }}" class="card-img-top" alt="...">
-                    <p class="my-2 mb-0 card-text">Toko Kesehatan</p>
+                    <a href="tokokesehatan" style="text-decoration: none !important; color: black;">
+                        <img src="{{ asset('assets/img/toko.jpg') }}" class="card-img-top" alt="...">
+                        <p class="my-2 mb-0 card-text">Toko Kesehatan</p>
+                    </a>
                 </div>
             </div>
         </div>

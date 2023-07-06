@@ -100,8 +100,50 @@
         </div>
     </div>
     <div class="d-grid gap-2 col-md-2 mx-auto my-3 shadow">
-        <a class="btn btn-primary" href="#" role="button">Bergabung Sekarang</a>
+        <a class="btn btn-primary" href="#" role="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal1">Bergabung Sekarang</a>
     </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-3" id="exampleModalLabel">Bergabung Bersama Kami</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex gap-2">
+                        <div class="d-grid gap-2">
+                            <h3 class="fs-5 text-center">Whatsapp</h3>
+                            <div class="card" style="width: 10rem;">
+                                <a
+                                    href="https://l.instagram.com/?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D628116382935%26text%3DHalo%2Badmin&e=AT3_DggpL4tZJusuwxQ22un41ndJBaJpYjnwljsrxPLU8vBndYv4j7tvZ7-klXVYDhD_wCn_OAqgQcgnKqFw8Kr3eaYKCeePSFIeyoo">
+                                    <img src="{{ asset('assets/img/wa.jpeg') }}" class="card-img-top text-center"
+                                        alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <h3 class="fs-5 text-center">Email</h3>
+                            <div class="card" style="width: 10rem;">
+                                <a
+                                    href="https://mail.google.com/mail/u/0/?hl=en#inbox">
+                                    <img src="{{ asset('assets/img/gm.jpeg') }}" class="card-img-top text-center"
+                                        alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-secondary"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Bayar Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
 
     @include('footer')
 </body>

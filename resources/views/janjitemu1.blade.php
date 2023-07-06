@@ -226,7 +226,7 @@
                             </div>
                             <div class="ms-auto my-auto">
                                 <p class="ms-auto">Bayar di Rumah Sakit</p>
-                                <a href="" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
+                                <a href="waktujanji" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                             </div>
                             <div class="ms-auto my-auto">
                                 <p class="ms-auto">Bayar di Rumah Sakit</p>
-                                <a href="" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
+                                <a href="waktujanji" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                             </div>
                             <div class="ms-auto my-auto">
                                 <p class="ms-auto">Bayar di Rumah Sakit</p>
-                                <a href="" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
+                                <a href="waktujanji" class="btn btn-primary text-center ms-auto">Bayar Sekarang</a>
                             </div>
                         </div>
                     </div>
