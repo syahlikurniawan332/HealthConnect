@@ -61,15 +61,13 @@ Route::get('/layananlab', function () {
     return view('layananlab');
 });
 
-Route::get('/tokokesehatan', function () {
-    return view('tokokesehatan');
-});
-
-Route::post('/tambah-kat', [App\Http\Controllers\kategori_controller::class,'store1'])->name('kategori.store1');
-Route::get('/tokokesehatan', [App\Http\Controllers\kategori_controller::class, 'kategori'])->name('kategori');
-
 Route::post('/tambah-data-ibu', [App\Http\Controllers\IbuController::class,'store2'])->name('ibu.store2');
 Route::get('/dataibu', [App\Http\Controllers\IbuController::class, 'dataibu'])->name('dataibu');
+
+Route::post('/tambah-menu', [App\Http\Controllers\MenuController::class,'store'])->name('menu.store');
+Route::get('/tokokesehatan', [App\Http\Controllers\MenuController::class, 'datamenu'])->name('datamenu');
+
+// Route::get('/tokokesehatan',[App\Http\Controllers\AddprodukController::class,'add'])->name('addproduk');
 
 Auth::routes();
 
